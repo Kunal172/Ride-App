@@ -1,0 +1,93 @@
+body
+{
+    background-color: #383535;
+}
+.username
+{
+    margin-right:-43em;
+}
+
+.username-img
+{
+    margin-right: 2em;
+}
+
+.navbar-main
+{
+    background-color: #171717;
+}
+
+.edvora
+{
+    font-size: xx-large;
+    margin-left: 1em;
+}
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: whitesmoke;
+    transition: 0.4s
+}
+
+.nav-item:hover::after {
+    width: 100%
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: whitesmoke
+}
+
+.nav-link {
+    padding: 25px 5px;
+    transition: 0.2s
+}
+
+.navbar-2
+{
+    margin-left: 2em;
+}
+
+.card-main
+{
+    background-color: #171717;
+}
+
+.main-dropdown
+{
+    margin-right: 5em;
+}
+
+.map-card
+{
+    margin: 0 2em;
+}
+
+.map-img
+{
+    margin-left: 6em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.card-main-body p
+{
+    margin-top: -1em;
+}
+
+.card-side
+{
+    margin-right: 20px;
+}
+
+.card-side span
+{
+    margin-left: 5px;
+}
